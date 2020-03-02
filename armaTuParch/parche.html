@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrenalina Colombia</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/parche.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="logodiv">
+            <img class="logo" src="../imagenes/logo.png" alt="">
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-toggeable-sm">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars iconoResponsive"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto text-center navbar-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../experiencia/experiencia.html" id="tuExperiencia">Tu Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="armaTuParche">Arma Tu Parche</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="title">Nuestros Planes del Mes</h1>
+    <section>
+        <div class="section-plans">
+            <div class="slider-container">
+                <div class="slider">
+                    <ul>
+                        <li>
+                            <img class="img" src="../imagenes/tatacoa1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/tatacoa2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/tatacoa3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/slider3.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-container">
+                <h2 class="section-title">Desierto de la Tatacoa</h2>
+                <div class="paragraph">
+                    <p>3 días 2 noches del 7 al 10 de Marzo
+                        <br>Incluye:
+                    </p>
+                    <ul class="list">
+                        <li>Desayuno y cena incluido</li>
+                        <li>Hospedaje en el Hotel Fromage Resort</li>
+                        <li>Kit deportes extremos y paseo turístico</li>
+                        <li>Transporte ida y vuelta</li>
+                        <li>Cena romantica</li>
+                    </ul>
+                    <h4>Desde $320.000 por persona</h4>
+                    <div class="cupos-container">
+                        <h4 class="cupos-title">Cupos disponibles</h4>
+                        <div class="cupos-number">
+                            <div> 
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-plans">
+            <div class="slider-container">
+                <div class="slider">
+                    <ul>
+                        <li>
+                            <img class="img" src="../imagenes/suesca1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/suesca2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/suesca3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img" src="../imagenes/slider4.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-container">
+                <h2 class="section-title">Paseo en Suesca</h2>
+                <div class="paragraph">
+                    <p>4 días 3 noches desde el 27 de febrero hasta el 2 de Marzo
+                        <br>incluye:
+                    </p>
+                    <ul class="list">
+                        <li>Alimentación completa</li>
+                        <li>Hospedaje en Glamping</li>
+                        <li>Transporte ida y vuelta</li>
+                        <li>Rappel, Parapente, Montañismo</li>
+                        <li>Seguro todo riesgo</li>
+                    </ul>
+                    <h4>Desde $280.000 por persona (descuento especial por 4 cupor o más)</h4>
+                    <div class="cupos-container">
+                        <h4 class="cupos-title">Cupos disponibles</h4>
+                        
+                        <div class="cupos-number">
+                            <div id="tot()"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-container">
+        <div class="background-transp">
+            <h3 class="section-title">Dejanos tu informacion</h3>
+            <form class="form" action="">
+                <input class="form-item" type="text" name="name" placeholder="Escriba su nombre">
+                <input class="form-item" type="text" name="lastName" placeholder="Escriba su apellido">
+                <input class="form-item" type="email" name="email" placeholder="Escriba su correo">
+                <input class="form-item" type="text" name="telephone" placeholder="Escriba su numero de telefono">
+                <div class="two">
+                    <select class="formItem-two" name="" id="">
+                        <option value="default">Plan</option>
+                        <option value="carreta1">Desierto de la Tatacoa</option>
+                        <option value="carreta2">Suesca</option>
+                    </select>
+                    <!--form en donde el usuario entra los datos -->
+                        <input id="cupos" type="number"> <!--input donde el usuario pone los cupos que quiere -->
+                        <button onclick="cont()" type="button">enter</button> <!--boton de envio del formulario-->
+                    
+                </div>
+                <textarea class="text-area" name="message" placeholder="Escriba su mensaje" cols="30"
+                    rows="20"></textarea>
+                <input class="button" type="button" value="enviar" id="button">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="gotop-container">
+            <a href="#header"><i class="fa fa-angle-double-up fa-2x gotop"></i></a>
+        </div>
+        <!-- <div class="logoFooter-container">
+            <img class="img" src="../imagenes/logo.png" alt="">
+        </div> -->
+        <div class="footer-rs">
+            <a href="#"><i class="fab fa-twitter footer-item"></i></a>
+            <a href="#"><i class="fab fa-facebook footer-item"></i></a>
+            <a href="#"><i class="fab fa-pinterest footer-item"></i></a>
+        </div>
+        <p class="copyright">
+            Curso de Fundamentos
+            © COPYRIGHT 2020 Bogota Institute of Technology <br>
+            TODOS LOS DERECHOS RESERVADOS. BOGOTA-COLOMBIA.
+        </p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9fa96555ef.js"></script>
+</body>
+
+</html>

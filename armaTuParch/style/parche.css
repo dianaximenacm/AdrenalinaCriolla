@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+/* ELIMINAR ESTILOS POR DEFECTO */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+/* ESTILOS GENERALES */
+
+body {
+    background-image: url(../../imagenes/backgroundAP.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ESTILOS DEL HEADER */
+
+.header{
+    background-image: url(../../imagenes/hombreConMaleta.jpg);
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+}
+
+.logo{
+	max-width: 100%;
+	padding-top: 80px;
+}
+
+.logodiv{
+	margin:0 auto;
+	width: 30%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color:orange;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color:gray;
+}
+
+.iconoResponsive {
+    color: orange;
+    font-size: 30px;
+}
+
+/* .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+
+} */
+
+/* ESTILOS SECCION PLAN DEL MES */
+
+.title {
+    font-size: 50px;
+    /* font-family: 'Playball'; */
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.section-plans{
+    align-items: center;
+    border-radius: 15px ;
+    background-color: rgba(0, 0, 0, .7) ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 10px auto;
+    width: 95%;
+}
+
+.section-title {
+    font-family: 'ZCOOL QingKe HuangYou', ;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.text-container{
+    flex: 1 1 50%;
+    padding: 20px;
+}
+
+.paragraph {
+    padding: 20px;
+}
+
+.list {
+    padding: 20px;
+}
+
+.slider-container{
+    flex: 1 1 50%;
+}
+
+.img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cupos-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cupos-title {
+    font-size: 16px;
+}
+
+.cupos-number {
+    border: 2px solid white;
+    height: 40px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80px;
+}
+
+/* ESTILOS DEL FORMULARIO */
+
+.background-transp {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    width: 50%;
+}
+
+.form-container {
+    background-image: url(../../imagenes/slider5.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 95%;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.form-item {
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin: 6px 0;
+  width: 320px;
+}
+
+.text-area {
+  border-radius: 3px;
+  padding: 5px 10px;
+  height: 50px;
+  margin: 6px 0;
+  max-width: 100%;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    margin: 6px 0;
+}
+
+.formItem-two {
+    max-width: 130px;
+    margin-left: 5px ;
+}
+
+.button {
+    color: white;
+    background-color: #b388ff ;
+    border-color: #b388ff ;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* ESTILOS DEL SLIDER */
+.slider {
+	width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider ul {
+	display: flex;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider img,
+.slider li {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 400px;
+	width: 100%;
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/* ESTILOS FOOTER */
+
+.footer {
+    background: black;
+    font-size: 18px;
+    margin-top: 30px;
+    min-height: 200px;
+}
+
+.footer-rs {
+    display:inline-block;
+    margin: 10px 0;
+}
+
+.footer-item {
+    color:#ffffff;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.footer-item:hover {
+    color: #b388ff;
+}
+
+
+.gotop-container {
+    position: relative;
+    top: -20px;
+}
+
+.gotop {
+    border-radius: 50%;
+    border: 1px solid #b388ff;
+    background-color: white;
+    font-size: 20px ;
+    padding: 10px;
+}
+
+/* .logoFooter-container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+} */
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px ;
+}
+
+@media (max-width:1020px) {
+    .text-container,
+    .slider-container {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width:620px) {
+
+    .header {
+        min-height: 300px;
+    }
+
+    .logodiv {
+        width: 40%;
+    }
+
+    .title {
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+    .section-title {
+    font-size: 25px;
+    }
+
+}
