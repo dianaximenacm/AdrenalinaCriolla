@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
 /* ELIMINAR ESTILOS POR DEFECTO */
 
@@ -48,30 +47,25 @@ li {
 }
 
 .navbar {
-    background-color: black;
+		background-color: black;
 }
 
-.nav-link {
-    color:orange;
-    font-size: 20px;
+.otherPage {
+	color:orange;
+	font-size: 20px;
+	padding: 10px;
+	display:inline-block;
 }
-
-.nav-link:hover {
-    color:gray;
+.otherPage:hover {
+	color: orange;
+	text-decoration: underline;
+	text-decoration-color: gray;
 }
 
 .iconoResponsive {
-    color: orange;
-    font-size: 30px;
+	color: orange;
+	font-size: 30px;
 }
-
-/* .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-
-} */
-
 
 /* ESTILOS FOOTER */
 
