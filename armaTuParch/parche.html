@@ -19,20 +19,21 @@
         </div>
     </header>
     <nav class="navbar navbar-expand-lg sticky-top navbar-toggeable-sm">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars iconoResponsive"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto text-center navbar-center">
+                <li class="nav-item">
+                    <a class="otherPage" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="otherPage" href="../experiencia/experiencia.html">Tu Experiencia</a>
+                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../experiencia/experiencia.html" id="tuExperiencia">Tu Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="armaTuParche">Arma Tu Parche</a>
+                    <a class="otherPage" href="#">Arma Tu Parche</a>
                 </li>
             </ul>
         </div>
@@ -75,8 +76,8 @@
                     <div class="cupos-container">
                         <h4 class="cupos-title">Cupos disponibles</h4>
                         <div class="cupos-number">
-                            <div> 
-                               
+                            <div>
+
                             </div>
                         </div>
                     </div>
@@ -118,10 +119,10 @@
                     <h4>Desde $280.000 por persona (descuento especial por 4 cupor o más)</h4>
                     <div class="cupos-container">
                         <h4 class="cupos-title">Cupos disponibles</h4>
-                        
+
                         <div class="cupos-number">
-                            <div id="tot()"> 
-                                
+                            <div id="tot()">
+
                             </div>
                         </div>
                     </div>
@@ -144,9 +145,11 @@
                         <option value="carreta2">Suesca</option>
                     </select>
                     <!--form en donde el usuario entra los datos -->
-                        <input id="cupos" type="number"> <!--input donde el usuario pone los cupos que quiere -->
-                        <button onclick="cont()" type="button">enter</button> <!--boton de envio del formulario-->
-                    
+                    <input id="cupos" type="number">
+                    <!--input donde el usuario pone los cupos que quiere -->
+                    <button onclick="cont()" type="button">enter</button>
+                    <!--boton de envio del formulario-->
+
                 </div>
                 <textarea class="text-area" name="message" placeholder="Escriba su mensaje" cols="30"
                     rows="20"></textarea>
