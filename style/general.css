@@ -34,9 +34,8 @@ li {
 	width: 30%;
 }
 
-.navbar-wrapper {
+.navbar {
 		background-color: black;
-		z-index: 7;
 }
 
 .nav-link {
@@ -67,10 +66,13 @@ li {
 	font-size: 30px;
 }
 
-.isFixed {
-	background-color: black;
-	transition: all .5s ease;
-	width:100%;
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: orange
 }
 
 /* ESTILOS GENERALES */
