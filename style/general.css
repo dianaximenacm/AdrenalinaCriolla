@@ -78,9 +78,10 @@ li {
 /* ESTILOS GENERALES */
 
 body {
-    background-image: url(../imagenes/backgroundAP.png);
+    /* background-image: url(../imagenes/backgroundAP.png); */
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
     color: orange;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -92,7 +93,7 @@ body {
 
 .section1{
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: white;
     margin: 10px auto;
     padding: 20px;
     width: 95%;
@@ -101,54 +102,46 @@ body {
 .plans-container {
     color: black;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
 .plans {
-    padding: 10px;
-    transform: translate(3%);
+    border-radius: 20px;
+    position: relative;
     flex: 1 1 33,3%;
 }
 
 .img-plans {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.plans-icon {
+  background-color: orange;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.icono {
+  color: white;
+  font-size: 70px;
+}
+
+.plans:hover .plans-icon{
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+
+.modal-dialog {
     max-width: 80%;
-}
-
-.plans .img {
-    transition: all 1s ease-in-out;
-}
-
-.plans:hover .img {
-    opacity: .9;
-    transform: translateX(20%);
-}
-
-.plans-details {
-    background-color: rgba(216, 191, 216, .9);
-    opacity: 0;
-    width: 60%;
-    height: 95%;
-    transition: all .5s ease;
-    padding: 20px 10px;
-    transform: rotateY(-90deg) perspective(2000px);
-    transition: all 1s ease-in-out;
-}
-
-.title-plans,
-.paragraph-plans {
-    font-size: 14px;
-    padding: 5px 0
-}
-
-.plans:hover .plans-details {
-    top: 0;
-    opacity: 1;
-    transform: rotateY(0deg) perspective(2000px);
-}
-
-.plans-details-dis {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 /* ESTILOS SECCIONES DE PRESENTACION */
