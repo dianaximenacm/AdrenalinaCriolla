@@ -34,10 +34,6 @@ li {
 	width: 30%;
 }
 
-.navbar {
-		background-color: black;
-}
-
 .nav-link {
     color:gray;
     font-size: 20px;
@@ -46,23 +42,23 @@ li {
 .nav-link:hover {
 	color: gray;
 	text-decoration: underline;
-	text-decoration-color: orange;
+	text-decoration-color: #e26e17;
 }
 
 .otherPage {
-	color:orange;
+	color:#e26e17;
 	font-size: 20px;
 	padding: 10px;
 	display:inline-block;
 }
 .otherPage:hover {
-	color: orange;
+	color: #e26e17;
 	text-decoration: underline;
 	text-decoration-color: gray;
 }
 
 .iconoResponsive {
-	color: orange;
+	color: #e26e17;
 	font-size: 30px;
 }
 
@@ -72,17 +68,13 @@ li {
 
 .dropdown-item:hover {
     background-color: black;
-    color: orange
+    color: #e26e17
 }
 
 /* ESTILOS GENERALES */
 
 body {
-    /* background-image: url(../imagenes/backgroundAP.png); */
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: black;
-    color: orange;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -93,14 +85,12 @@ body {
 
 .section1{
     border-radius: 15px;
-    background-color: white;
     margin: 10px auto;
     padding: 20px;
     width: 95%;
 }
 
 .plans-container {
-    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -119,7 +109,7 @@ body {
 }
 
 .plans-icon {
-  background-color: orange;
+  background-color: #e26e17;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -148,7 +138,7 @@ body {
 
 .section2{
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: white;
     display: flex;
     padding: 30px;
     margin: 10px auto;
@@ -207,25 +197,15 @@ body {
     align-items: center;
 }
 
-.video-container,
 .form-container {
     flex: 1 1 50%;
 }
 
-.video-container {
-    height: 500px;
-}
-
-.video {
-    max-width: 100%;
-    max-height: 100%;
-}
 
 /* Formulario */
 
 
 .form {
-    background-color: rgba(72, 36, 173, 0.7);
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -251,14 +231,13 @@ body {
   margin: 6px 0;
   width: 320px;
   font-size: 15px;
-  box-shadow: rgba(72, 36, 173, 0.7);
   border-style: ridge;
 }
 
 .button {
     color: white;
-    background-color: #b388ff ;
-    border-color: #b388ff ;
+    background-color: #e26e17;
+    border-color: #e26e17 ;
     border-radius: 5px;
     margin: 6px 0;
     padding: 5px 10px;
@@ -342,6 +321,7 @@ body {
 /* ESTILOS FOOTER */
 
 .footer {
+    color: white;
     background: black ;
     margin-top: 30px;
     min-height: 200px;
@@ -359,7 +339,7 @@ body {
 }
 
 .footer-item:hover {
-	color: #b388ff;
+	color: #e26e17;
 }
 
 
@@ -370,9 +350,9 @@ body {
 
 .gotop {
     border-radius: 50%;
-    border: 1px solid #b388ff;
-		background-color: white;
-		color: #92DD03;
+    border: 1px solid #e26e17;
+	background-color: white;
+	color: #e26e17;
     font-size: 20px ;
     padding: 10px;
 }
@@ -385,6 +365,7 @@ body {
 } */
 
 .copyright {
+    color: #e26e17;
     font-size: 12px;
     margin-top: 10px ;
 }

@@ -54,9 +54,7 @@ li {
 	display:inline-block;
 }
 .otherPage:hover {
-	color: orange;
-	text-decoration: underline;
-	text-decoration-color: gray;
+	color: #b6b6b6;
 }
 
 .iconoResponsive {
@@ -88,7 +86,7 @@ li {
 }
 
 .footer-item:hover {
-	color: #b388ff;
+	color: #e26e17;
 }
 
 
@@ -98,8 +96,9 @@ li {
 }
 
 .gotop {
+    color: #e26e17;
     border-radius: 50%;
-    border: 1px solid #b388ff;
+    border: 1px solid #e26e17;
     background-color: white;
     font-size: 20px ;
     padding: 10px;
