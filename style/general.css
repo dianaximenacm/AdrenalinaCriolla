@@ -559,38 +559,6 @@ body {
         flex: 1 1 100%;
         width: 30%;
     }
-    .td_form
-    {
-        flex: 1 1 100%;
-        width: 60px;
-    }
-    input
-    {
-        flex: 1 1 100%;
-        width: 300px;
-        padding: 0;
-    }
-    .texta_form
-    {
-        flex: 1 1 100%;
-        width: 100%;
-    }
-    .button_form
-    {
-        width: 30px;
-        flex: 1 1 100%;
-    }
-    .boton
-    {
-        flex: 1 1 100%;
-        margin-left: 200px;
-    }
-    .boton1
-    {
-        flex:1 1 100%;
-        margin-left: 200px;
-        margin-top: 3px;
-    }
 
 }
 
@@ -620,38 +588,6 @@ body {
         flex: 1 1 100%;
         width: 20%;
         text-align: center;
-    }
-    .td_form
-    {
-        flex: 1 1 100%;
-        width: 60px;
-    }
-    input
-    {
-        flex: 1 1 100%;
-        width: 300px;
-        padding: 0;
-    }
-    .texta_form
-    {
-        flex: 1 1 100%;
-        width: 100%;
-    }
-    .button_form
-    {
-        width: 30px;
-        flex: 1 1 100%;
-    }
-    .boton
-    {
-        flex: 1 1 100%;
-        margin-left: 200px;
-    }
-    .boton1
-    {
-        flex:1 1 100%;
-        margin-left: 200px;
-        margin-top: 3px;
     }
 
 }
