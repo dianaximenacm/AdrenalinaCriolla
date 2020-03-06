@@ -181,7 +181,7 @@ body {
     color: white;
 }
 .pedir
-{
+/* {
     border-left-color: black;
     background-color: transparent;
     width: 300px;
@@ -193,7 +193,7 @@ body {
 .pedir:hover
 {
     background-color: black;
-}
+} */
 .tr_plan{
     width: 100%;
 }
@@ -341,14 +341,15 @@ body {
 
 .gotop {
     border-radius: 50%;
-    border: 1px solid #B0F8FF;
+    border: 1px solid #37A8B3;
     background-color: white;
-    color:  #57ABB3;
+    color:  #37A8B3;
     font-size: 20px ;
     padding: 10px;
 }
 
 .copyright {
+    color:  #37A8B3;
     font-size: 12px;
     margin-top: 10px ;
 }

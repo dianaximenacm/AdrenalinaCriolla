@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+/* ELIMINAR ESTILOS POR DEFECTO */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ESTILOS DEL HEADER */
+
+.header {
+    background-image: url(../img/hombreConMaleta.jpg);
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    padding-top: 80px;
+}
+
+.logodiv {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.otherPage {
+	color:seashell;
+	font-size: 20px;
+	padding: 10px;
+	display:inline-block;
+}
+.otherPage:hover {
+	color: #B0F8FF;
+	text-decoration: none;
+}
+
+.iconoResponsive {
+    color:seashell;
+    font-size: 30px;
+}
+
+.menuVertical {
+    color: seashell;
+    font-size: 60px;
+    margin: 0 20px;
+    width: 250px;
+}
+
+.menuVertical button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.5em;
+    width: 100%;
+    height: 70px;
+    background-color: #b6b6b6;
+    color: honeydew;
+    text-align: left;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+}
+
+.menuVertical button:hover {
+    color: #B0F8FF;
+}
+
+.contenedor-mapa {
+    position: relative;
+}
+
+.deporteExtremo {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.botones {
+    width: 702px;
+    height: 908px;
+}
+
+.NortedeSantander {
+    top: 250px;
+    left: 310px;
+}
+
+.Antioquia {
+    top: 310px;
+    left: 180px;
+}
+
+.Cundinamarca {
+    top: 365px;
+    left: 210px;
+}
+
+.Tolima {
+    top: 450px;
+    left: 130px;
+}
+
+.Nariño {
+    top: 505px;
+    left: -15px;
+}
+
+.Guajira {
+    top: 140px;
+    left: 330px;
+}
+
+.Choco {
+    top: 343px;
+    left: 110px;
+}
+
+.Cauca {
+    top: 460px;
+    left: 100px
+}
+
+.Magdalena {
+    top: 190px;
+    left: 240px;
+}
+
+.Bolivar {
+    top: 256px;
+    left: 224px;
+}
+
+.Huila {
+    top: 445px;
+    left: 160px;
+}
+
+.Guaviare {
+    top: 445px;
+    left: 300px;
+}
+
+.Vaupes {
+    top: 490px;
+    left: 350px;
+}
+
+.Guainia {
+    top: 400px;
+    left: 390px;
+}
+
+.Amazonas {
+    top: 600px;
+    left: 260px;
+}
+
+
+/* modales Estilos Juan Morales */
+.modal{
+    border-radius: 20px;
+}
+
+.modal-header{
+    background-color: seashell;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:#57ABB3;
+}
+
+.modal-content{
+    background-color: seashell;
+    color:#57ABB3;;
+}
+
+.close span{
+    color: #57ABB3;;
+    font-size: 5em;
+    padding: 0%;
+    margin-left: -50px;    
+}
+
+.close{
+    font-size: .9em;
+}
+
+.modal-title{
+    font-size: 3em;
+}
+
+.modal-body{
+    font-size: 2em;
+}
+
+.modal-body img{    
+border-radius: 14px;
+}
+
+.modal-footer button{
+    border-radius: 20px;
+    font-size: 3em;
+}
+
+.btn {
+    background-color: #57ABB3;
+    border: 1px solid #57ABB3;;
+    border-radius: 20px ;
+    color: seashell;
+}
+
+/* ESTILOS DEL FOOTER */
+
+.footer {
+    align-items: center;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 30px;
+    min-height: 200px;
+}
+
+.footer-rs {
+    display:inline-block;
+    margin: 10px 0;
+}
+
+.footer-item {
+    color:#ffffff;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.footer-item:hover {
+    color: #B0F8FF;
+}
+
+
+.gotop-container {
+    position: relative;
+    top: -20px;
+}
+
+.gotop {
+    border-radius: 50%;
+    border: 1px solid #37A8B3;
+    background-color: white;
+    color:  #37A8B3;
+    font-size: 20px ;
+    padding: 10px;
+}
+
+.copyright {
+    color:  #37A8B3;
+    font-size: 12px;
+    margin-top: 10px ;
+    text-align: center;
+}
+
+@media (max-width:620px) {
+
+    .header {
+        min-height: 300px;
+    }
+
+    .logodiv {
+        width: 40%;
+    }
+}
+
+@media(max-width:991px) {
+    .contenedor-mapa {
+        width: 550px;
+    }
+    .mapa-deporte {
+        width: 550px;
+    }
+    .botones {
+        width: 550px
+    }
+    .NortedeSantander {
+        top: 195px;
+        left: 241px;
+    }
+    .Antioquia {
+        top: 235px;
+        left: 129px;
+    }
+    .Cundinamarca {
+        top: 284px;
+        left: 149px;
+    }
+    .Tolima {
+        top: 357px;
+        left: 76px;
+    }
+    .Nariño {
+        top: 403px;
+        left: -30px;
+    }
+    .Guajira {
+        top: 117px;
+        left: 244px;
+    }
+    .Choco {
+        top: 277px;
+        left: 85px;
+    }
+    .Cauca {
+        top: 352px;
+        left: 55px;
+    }
+    .Magdalena {
+        top: 146px;
+        left: 182px;
+    }
+    .Bolivar {
+        top: 195px;
+        left: 164px;
+    }
+    .Huila {
+        top: 360px;
+        left: 96px;
+    }
+    .Guaviare {
+        top: 359px;
+        left: 213px;
+    }
+    .Vaupes {
+        top: 397px;
+        left: 255px;
+    }
+    .Guainia {
+        top: 305px;
+        left: 261px;
+    }
+    .Amazonas {
+        top: 471px;
+        left: 163px;
+    }
+    .menuVertical {
+        margin: -105px 20px;
+        width: 176px;
+    }
+    .menuVertical .botones-menu{
+        height: auto;
+    }
+}@media(max-width:768px){
+    .contenedor-padre{
+        flex-direction: column;
+    }
+    .menuVertical{
+       margin: auto;
+       width: 40%;
+    }
+}
+@media(max-width:540px){
+
+.contenedor-mapa {
+    width: 300px;
+    margin: auto;
+}
+.mapa-deporte {
+    width: 300px;
+    
+}
+.botones {
+    width: 300px
+}
+.Magdalena {
+    top: 69px;
+    left: 92px;
+}.Bolivar {
+    top: 96px;
+    left: 68px;
+}.Huila {
+    top: 183px;
+    left: 20px;
+}
+.Guaviare {
+    top: 185px;
+    left: 73px;
+}.Vaupes {
+    top: 207px;
+    left: 79px;
+}.Guainia {
+    top: 163px;
+    left: 70px;
+}.Amazonas {
+    top: 250px;
+    left: 27px;
+}
+.NortedeSantander {
+    top: 96px;
+    left: 128px;
+}.Antioquia {
+    top: 119px;
+    left: 49px;
+}
+.Cundinamarca {
+    top: 145px;
+    left: 52px;
+}.Tolima {
+    top: 191px;
+    left: -16px;
+}
+.Nariño {
+    top: 208px;
+    left: -87px;
+}
+.Guajira {
+    top: 62px;
+    left: 118px;
+}.Choco {
+    top: 124px;
+    left: 18px;
+}.Cauca {
+    top: 188px;
+    left: -8px;
+}
+}

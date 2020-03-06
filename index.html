@@ -42,7 +42,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="otherPage" href="./experiencia/experiencia.html">Tu Experiencia</a>
+          <a class="otherPage" href="./tuExperiencia/experiencia.html">Tu Experiencia</a>
         </li>
         <li class="nav-item">
           <a class="otherPage" href="./armaTuParch/parche.html">Arma Tu Parche</a>
@@ -205,20 +205,58 @@
         <img class="img" src="./imagenes/slider1.jpg" alt="parapente">
       </div>
     </section>
+    <h2 class="section-title">Contáctanos</h2>
     <section id="section3" class="section3">
-      <h2 class="section-title">Contáctanos</h2>
-      <div class="flex-section">
-        <div class="form-container">
-          <form class="form" action="">
-            <h3 class="section-title">Déjanos tu información</h3>
-            <input class="form-item" type="text" name="name" placeholder="Escriba su nombre">
-            <input class="form-item" type="text" name="lastName" placeholder="Escriba su apellido">
-            <input class="form-item" type="email" name="email" placeholder="Escriba su correo">
-            <input class="form-item" type="text" name="telephone" placeholder="Escriba su numero de telefono">
-            <textarea class="text-area" name="message" placeholder="Escriba su mensaje" cols="30" rows="20"></textarea>
-            <input class="button" type="button" value="Enviar" id="button">
-          </form>
-        </div>
+      <div class="form-container">
+        <form action="" name="formulario">
+          <fieldset class="formulario">
+            <p class="legend">Dejanos tus datos</p>
+            <table>
+              <tr>
+                <td class="td_form">Nombres:</td>
+                <td class="td_form"><input type="text" name="nombres" maxlength="30" required autofocus
+                    class="input_form">
+                </td>
+              </tr>
+              <tr>
+                <td class="td_form">Apellidos:</td>
+                <td class="td_form"><input type="text" name="apellidos" maxlength="30" required class="input_form">
+                </td>
+              </tr>
+              <td class="td_form">Correo Electronico:</td>
+              <td class="td_form"><input type="email" name="email" maxlength="30" required class="input_form">
+              </td>
+              <tr class="tr_plan">
+                <td class="td_form">Plan de la Tatacoa:</td>
+                <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion">0</label>
+                  <button type="button" onclick="sustraer()" class="button_form">-</button>
+                  <button type="button" onclick="adicionar()" class="button_form">+</button>
+                  <!-- <button class="pedir" type="button" class="pedido" onclick="Agregar()">REALIZAR
+                                    PEDIDO</button> -->
+                </td>
+              </tr>
+              <tr class="tr_plan">
+                <td class="td_form">Plan de Suesca:</td>
+                <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion1">0</label>
+                  <button type="button" onclick="sustraer1()" class="button_form">-</button>
+                  <button type="button" onclick="adicionar1()" class="button_form">+</button>
+                  <!-- <button class="pedir" type="button" onclick="Agregar1()">REALIZAR PEDIDO</button> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="td_form"><label for="message">Escribe tu mensaje:</label></td>
+                <td class="td_form"><textarea rows="10" cols="40" required maxlength="150" id="message"
+                    class="texta_form"></textarea></td>
+              </tr>
+            </table>
+            <button type="submit" class="boton">
+              <img src="./imagenes/correcto.png" alt="image" width="30" height="30">Enviar
+            </button>
+            <button type="reset" class="boton1">
+              <img src="./imagenes/basura.png" alt="borrar" width="30" height="30">Borrar
+            </button>
+          </fieldset>
+        </form>
       </div>
     </section>
   </div>

@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>Tu experiencia</title>
+	<link rel="stylesheet" href="css/experienciaEstilos.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<!--imagen de logo guardada en carpeta img, no se incluye archivo css.parche sino se incluye header y foot en experienciaEstilos -->
+	<link rel="stylesheet" href="css/sliderexperiencia.css">
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header class="header" id="header">
+		<div class="logodiv">
+			<img class="logo" src="img/logo.png" alt="">
+		</div>
+	</header>
+	<nav class="navbar navbar-expand-lg sticky-top navbar-toggeable-sm">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars iconoResponsive"></i>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto text-center navbar-center">
+				<li class="nav-item active">
+					<a class="otherPage" href="../index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="otherPage" href="#">Tu Experiencia</a>
+				</li>
+				<li class="nav-item">
+					<a class="otherPage" href="../armaTuParch/parche.html">Arma Tu Parche</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- CUERPO -->
+	<div
+		class="d-flex align-content-center flex-xl-row flex-lg-row flex-md-row flex-sm-wrap justify-content-xl-around justify-content-lg-around justify-content-md-between contenedor-padre">
+		<!-- MENU LATERAL -->
+
+		<div class="menuVertical">
+			<br>
+			<br>
+
+			<button type="button" class="botones-menu" id="deporteN1" onclick="raf()">Rafting </button>
+			<button type="button" class="botones-menu" id="deporteN2" onclick="can()">Canopy </button>
+			<button type="button" class="botones-menu" id="deporteN3" onclick="esc()">Climbing </button>
+			<button type="button" class="botones-menu" id="deporteN1" onclick="para()">Parashuting </button>
+			<button type="button" class="botones-menu" id="deporteN2" onclick="bung()">Bongy Jumping </button>
+			<button type="button" class="botones-menu" id="deporteN3" onclick="parape()">Parapente </button>
+		</div>
+		<!-- MAPA AL LADO  -->
+
+		<figure class="contenedor-mapa" style="left: 0; z-index: 1;">
+			<img style="position: absolute;top: 0; left: 0px;" id="rafting" class="rafting mapa-deporte"
+				src="img/MapraftingMe.jpg" width:80%>
+			<img style="position: absolute;top: 0; left: 00px;" id="escalada" class="escalada mapa-deporte"
+				src="img/escaladaME.jpg" width:80%>
+			<img style="position: absolute;top: 0; left: 00px;" id="canopy" class="canopy mapa-deporte" src="img/canopy.jpeg"
+				width:80%>
+			<img style="position: absolute;top: 0; left: 00px;" id="colombia" class="colombia mapa-deporte"
+				src="img/colombiaMe.jpg" width:80%>
+			<div class="botones" id="botones">
+
+			</div>
+		</figure>
+
+	</div>
+	<!-- Inicio Modal Juan Morales -->
+
+
+
+	<!-- Modal 1 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal1" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Norte de Santander</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/raftingD.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade bd-example-modal-xl" id="exampleModal2" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h5 class="modal-title" id="exampleModalLabel">Antioquia </h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/rafting2.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal3" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h5 class="modal-title" id="exampleModalLabel">Cundinamarca</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/rafting1.jpeg.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal4" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<h5 class="modal-title" id="exampleModalLabel">Tolima</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/rafting3.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal5" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Nariño</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/rafting4.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal6" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Guajira</h5>
+					<button type="button" onclick="guajira()" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/canpy1.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal7" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Chocó</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/canpy2.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal8" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Cauca</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/canpy3.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade bd-example-modal-xl" id="exampleModal9" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Magdalena</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing11.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal10" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Bolivar</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing22.png">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal11" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Huila</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing33.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal12" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Guaviare</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing44.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal13" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Vaupés</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing55.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal14" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Guainía</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing66.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-xl" id="exampleModal15" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Amazonas</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
+						ríos con secciones turbulentas o “rápidos”.</p>
+					<hr>
+					<img class="img-fluid" width="100%" src="/img/climbing77.png.jpg">
+					<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Siguentes tres funciones definidos como nuevos botones -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal16" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Norte de Santander</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/paragliding1.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 17 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal17" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Antioquia</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/paragliding2.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 18 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal18" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Cundinamarca</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/paragliding3.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal 19 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal19" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Tolima</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente1.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal 20 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal20" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Nariño</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente2.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal 21 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal21" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Guajira</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/bungee1.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 22 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal22" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Chocó</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/bungee2.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 23 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal23" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Cauca</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/bungee3.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 24 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal24" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Magdalena</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente1.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 25 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal25" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Bolivar</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente2.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 26 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal26" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Tolima</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente3.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 27 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal27" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Meta</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente4.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal 28 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal28" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Vaupés</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente5.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- modal 29 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal29" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Guainía</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente7.png.jpg">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 30 -->
+	<div class="modal fade bd-example-modal-xl " id="exampleModal30" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Amazonas</h5>
+					<hr>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<!-- <span aria-hidden="true">&times;</span> -->
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque corporis beatae provident ab itaque
+						ipsa unde atque nihil est dolorem aliquid natus doloremque consequuntur, quod explicabo impedit placeat
+						veniam. El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática
+						(raft), por ríos con secciones turbulentas o “rápidos”
+						.
+						<hr>
+						<img class="img-fluid" width="100%" src="/img/parapente5.png">
+						<hr>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn" data-dismiss="modal">Cerrar</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- slider DIANA-->
+	<section class="slider">
+
+		<article>
+			<ul class="slider-portada">
+				<li>
+					<input type="radio" id="sbutton1" name="sradio" checked>
+					<!--name se usa para categorizar el input
+				checked para que aperezca seleccionado-->
+					<label for="sbutton1"></label>
+					<img src="img/D3.jpg" alt="obra1">
+				</li>
+				<li>
+					<input type="radio" id="sbutton2" name="sradio">
+					<!--name se usa para categorizar el input-->
+					<label for="sbutton2"></label>
+					<img src="img/D2.jpg" alt="obra2">
+				</li>
+				<li>
+					<input type="radio" id="sbutton3" name="sradio">
+					<!--name se usa para categorizar el input-->
+					<label for="sbutton3"></label>
+					<img src="img/D1.jpg" alt="obra3">
+				</li>
+
+				<li>
+					<input type="radio" id="sbutton4" name="sradio">
+					<!--name se usa para categorizar el input-->
+					<label for="sbutton4"></label>
+					<img src="img/DD.jpg" alt="obra4">
+				</li>
+			</ul>
+		</article>
+	</section>
+
+
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="gotop-container">
+			<a href="#header"><i class="fa fa-angle-double-up fa-2x gotop"></i></a>
+		</div>
+		<!-- <div class="logoFooter-container">
+		<img class="img" src="../imagenes/logo.png" alt="">
+	</div> -->
+		<div class="footer-rs">
+			<a href="#"><i class="fab fa-twitter footer-item"></i></a>
+			<a href="#"><i class="fab fa-facebook footer-item"></i></a>
+			<a href="#"><i class="fab fa-pinterest footer-item"></i></a>
+		</div>
+		<p class="copyright">
+			Curso de Fundamentos
+			© COPYRIGHT 2020 Bogota Institute of Technology <br>
+			TODOS LOS DERECHOS RESERVADOS. BOGOTA-COLOMBIA.
+		</p>
+		</div>
+	</footer>
+	<script src="js/app.js"></script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/9fa96555ef.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+
+</html>
