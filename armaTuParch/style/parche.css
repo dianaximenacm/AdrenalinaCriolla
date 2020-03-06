@@ -18,8 +18,9 @@ li {
 /* ESTILOS GENERALES */
 
 body {
-    background-color: black;
-    color: white;
+    background-color: seashell;
+    color: #57ABB3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -44,21 +45,22 @@ body {
 }
 
 .navbar {
-	background-color: black;
+	background-color: #37A8B3;
 }
 
 .otherPage {
-	color:#e26e17;
+	color:seashell;
 	font-size: 20px;
 	padding: 10px;
 	display:inline-block;
 }
 .otherPage:hover {
-	color: #b6b6b6;
+	color: #82F4FF;
+    text-decoration: none;
 }
 
 .iconoResponsive {
-	color: #e26e17;
+	color: seashell;
 	font-size: 30px;
 }
 
@@ -73,7 +75,8 @@ body {
 .section-plans{
     align-items: center;
     border-radius: 15px ;
-    background-color: white;
+    border: 2px solid #57ABB3;
+    background-color: seashell;
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +97,7 @@ body {
 }
 
 .paragraph {
+    color:black;    
     padding: 20px;
 }
 
@@ -123,7 +127,8 @@ body {
 }
 
 .cupos-number {
-    border: 2px solid white;
+    border-radius: 5px;
+    border: 2px solid  #57ABB3;
     height: 40px;
     margin: 0 auto;
     padding: 5px;
@@ -325,7 +330,7 @@ body {
 }
 
 .footer-item:hover {
-    color: #e26e17;
+    color: #B0F8FF;
 }
 
 
@@ -336,22 +341,14 @@ body {
 
 .gotop {
     border-radius: 50%;
-    border: 1px solid #e26e17;
+    border: 1px solid #B0F8FF;
     background-color: white;
-    color: #e26e17;
+    color:  #57ABB3;
     font-size: 20px ;
     padding: 10px;
 }
 
-/* .logoFooter-container {
-    position: relative;
-    top: 20px;
-    left: 20px;
-    width: 300px;
-} */
-
 .copyright {
-    color: #e26e17;
     font-size: 12px;
     margin-top: 10px ;
 }
