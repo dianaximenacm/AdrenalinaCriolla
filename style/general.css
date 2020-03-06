@@ -131,7 +131,45 @@ body {
 }
 
 .modal-dialog {
-    max-width: 80%;
+    max-width: 70%;
+}
+
+.modal{
+    border-radius: 20px;
+}
+
+.modal-header{
+    background-color: seashell;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:#57ABB3;
+}
+
+.modal-content{
+    background-color: seashell;
+    color:#57ABB3;;
+}
+
+.close span{
+    color: #57ABB3;;
+    font-size: 1em;
+    padding: 0%;
+    margin-left: -50px;    
+}
+
+.modal-title{
+    font-size: 2em;
+}
+
+.modal-body{
+    font-size: 1em;
+}
+
+.btn {
+    background-color: #57ABB3;
+    border: 1px solid #57ABB3;;
+    border-radius: 20px ;
+    color: seashell;
 }
 
 /* ESTILOS SECCIONES DE PRESENTACION */

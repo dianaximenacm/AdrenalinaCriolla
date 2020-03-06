@@ -2,11 +2,11 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll > 300) {
+    if (scroll > 400) {
       $(".navbar").css("background", "black");
     }
     else {
-      $(".navbar").css("background", "white");
+      $(".navbar").css("background", "#57ABB3");
     }
   })
 })
