@@ -24,7 +24,7 @@ li {
 /* ESTILOS DEL HEADER */
 
 .header {
-    background-image: url(../img/hombreConMaleta.jpg);
+    background-image: url(../imagenes/hombreConMaleta.jpg);
     background-size: cover;
     min-height: 450px;
     background-position: center;
