@@ -28,7 +28,7 @@ function Agregar(){
     cupos.innerHTML = totalCupos
     swal({
       title: "Tiquetes pedidos",
-      text: "Has agregado" + " " + cantidadtiquet + " " + "tiquet para armar tu parche",
+      text: "Has agregado" + " " + cantidadtiquet + " " + "tickets para armar tu parche",
       icon: "success",
       button: "Entendido"
   })
@@ -72,7 +72,7 @@ function Agregar1(){
     cupos1.innerHTML = totalCupos1
     swal({
       title: "Tiquetes pedidos",
-      text: "Has agregado" + " " + cantidadtiquet1 + " " + "tiquet para armar tu parche",
+      text: "Has agregado" + " " + cantidadtiquet1 + " " + "tickets para armar tu parche",
       icon: "success",
       button: "Entendido"
   })
