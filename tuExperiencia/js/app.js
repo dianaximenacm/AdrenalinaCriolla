@@ -38,7 +38,7 @@
 					boton.style.position = "relative"
 					boton.id = "boton" + i;
 					boton.setAttribute("class",names[i-1].replace(/ /g, ""));
-					boton.style.backgroundImage = "url('https://www.stickpng.com/assets/thumbs/5888925dbc2fc2ef3a1860ad.png')"
+					boton.style.backgroundImage = "url('https://ww	w.stickpng.com/assets/thumbs/5888925dbc2fc2ef3a1860ad.png')"
 					boton.style.backgroundSize = "cover"
 					boton.style.backgroundColor = "rgba(255,255,255,0)"
 					boton.style.border = "none";
