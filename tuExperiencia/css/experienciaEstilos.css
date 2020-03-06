@@ -95,6 +95,11 @@ li {
     font-size: 25px;
 }
 
+
+.textoDeporte {
+    color: white;
+}
+
 .botones {
     width: 702px;
     height: 908px;
@@ -197,12 +202,6 @@ li {
     color:#57ABB3;;
 }
 
-.close span{
-    color: #57ABB3;;
-    font-size: 1em;
-    padding: 0%;
-    margin-left: -50px;    
-}
 
 .modal-title{
     font-size: 2em;

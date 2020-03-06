@@ -1,7 +1,7 @@
 	var cont = 0;
 		var cantidadDepartamentos = 0;
 		function raf() {
-
+			document.getElementById('textoDeporte').innerHTML="El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por ríos con secciones turbulentas o “rápidos”.";	
 			if (cont == 0) {
 				cont++;
 				document.getElementById("colombia").style.transition = "all 1s";
@@ -17,6 +17,10 @@
 				document.getElementById("rafting").style.opacity = "1";
 				document.getElementById("rafting").style.zIndex = "-1"
 				// ____________________________________________________
+				
+			
+				
+				
 				
 				let names = ["Norte de Santander", "Antioquia", "Cundinamarca", "Tolima", "Nariño"]
 				cantidadDepartamentos = names.length;
@@ -94,6 +98,7 @@
 
 
 		function can() {
+			document.getElementById('textoDeporte').innerHTML="El barranquismo es un deporte practicado en entornos remotos y accidentados como los barrancos o los cañones o de un río, y consiste en recorrerlos caminando, nadando, trepando, destrepando, etc.";
 
 			if (cont == 0) {
 				cont++;
@@ -109,6 +114,9 @@
 				document.getElementById("canopy").style.transition = "all 1s";
 				document.getElementById("canopy").style.opacity = "1";
 				document.getElementById("canopy").style.zIndex = "-1"
+			// ______________________________
+			 
+
 
 
 				let names = ["Guajira", "Chocó", "Cauca"]
@@ -179,6 +187,7 @@
 		}
 
 		function esc() {
+			document.getElementById('textoDeporte').innerHTML="La escalada consiste en realizar ascensos sobre objetos topográficos empinados, usando las manos, los pies o cualquier otra parte del cuerpo. Se practica en interiores y exteriores, sobre estructuras naturales o artificiales.";	
 
 			if (cont == 0) {
 				cont++;
@@ -195,6 +204,9 @@
 				document.getElementById("escalada").style.transition = "all 1s";
 				document.getElementById("escalada").style.opacity = "1";
 				document.getElementById("escalada").style.zIndex = "-1"
+				// __________________________
+				
+				
 
 
 				// let tops = [190, 256, 445, 455, 490, 400, 600]
@@ -303,6 +315,7 @@
 		   
 		  })();
 		  function para() {
+			document.getElementById('textoDeporte').innerHTML="El paracaidismo es la técnica de lanzamiento de personas u objetos desde cierta altura usando un paracaídas para amortiguar el impacto del aterrizaje. Se puede hacer desde aeronaves como un avión o desde un objeto fijo."
 
 			if (cont == 0) {
 				cont++;
@@ -341,6 +354,7 @@
 					boton.style.top = tops[i - 1] + "px";
 					boton.style.left = lefts[i - 1] + "px";
 					boton.id = "boton" + i;
+					boton.setAttribute("class",names[i-1].replace(/ /g, ""));
 					boton.style.backgroundImage = "url('https://www.stickpng.com/assets/thumbs/5888925dbc2fc2ef3a1860ad.png')"
 					boton.style.backgroundSize = "cover"
 					boton.style.backgroundColor = "rgba(255,255,255,0)"
@@ -403,7 +417,7 @@
 		}
 
 		function bung() {
-
+			document.getElementById('textoDeporte').innerHTML="Salto de Puente es un deporte extremo que consiste en hacer un salto al vacío desde una considerable altura, desde puente, plataforma o grúa, generalmente con una conexión"
 			if (cont == 0) {
 				cont++;
 				document.getElementById("colombia").style.transition = "all 1s";
@@ -488,6 +502,7 @@
 		}
 		function parape() {
 
+			document.getElementById('textoDeporte').innerHTML="El parapente es un deporte nacido a finales del siglo XX por la inventiva de montañeros que querían bajar volando mediante un paracaídas desde las cimas que habían ascendido. 			"
 			if (cont == 0) {
 				cont++;
 				document.getElementById("colombia").style.transition = "all 1s";
