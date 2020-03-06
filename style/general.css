@@ -370,12 +370,49 @@ body {
     height: 565px;
 }
 
+.peq::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+  
+.peq::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 4px;
+}
+  
+.peq::-webkit-scrollbar-thumb:active {
+    background-color: seashell;
+}
+  
+.peq::-webkit-scrollbar-thumb:hover {
+    background: seashell;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+  
+/* Estilos track de scroll */
+.peq::-webkit-scrollbar-track {
+    background: seashell;
+    border-radius: 4px;
+}
+  
+.peq::-webkit-scrollbar-track:hover, 
+.peq::-webkit-scrollbar-track:active {
+    background: seashell;
+}
+
+.container-slider {
+    display: flex;
+    height: 565px;
+    background-color: black;  
+}
+
 .peq {
     display: flex;
     flex-direction: column;
     line-height: 0;
     flex: 1 1 20%;
     overflow-y: auto;
+    height: 100%;
 }
 
 .peq-link {
@@ -396,21 +433,24 @@ body {
     position: absolute;
     height: 80%;
     width: 80%;
-    z-index: 1;
+    z-index: 1; 
+    height: 565px;
 }
 
 .img-slider {
     width: 100%;
-    height: 100%;
+    height: 100%;    
 }
 
 .slider .slider-list:target {
   z-index: 3;
   animation: slider 1.2s 1;
+  
 }
 
 .slider .slider-list:not(:target) {
   animation: hidden 800ms 1;
+  opacity: 0;
 }
 
 @keyframes slider {
